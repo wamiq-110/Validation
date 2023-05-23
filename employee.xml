@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee [
+<!ELEMENT employee (marksheet+)>
+    <!ELEMENT marksheet ((fname|firstname),lname,subject*,Grade,percentage)>
+    <!ELEMENT fname (#PCDATA)>
+    <!ELEMENT lname (#PCDATA)>
+    <!ELEMENT subject (#PCDATA)>
+    <!ELEMENT Grade (#PCDATA)>
+    <!ELEMENT percentage (#PCDATA)>
+    <!ELEMENT firstname (#PCDATA)>
+    <!-- <!ATTLIST marksheet id CDATA #FIXED "110"> -->
+    <!ATTLIST marksheet id  (Software|UPDATE) "Software">
+
+   
+]>
+<employee>
+<marksheet id=" UPDATE">
+<fname>Muhammad</fname>
+
+
+<lname>Wamiq</lname>
+
+<subject>Maths "75"</subject>
+
+<subject>Physics "70"</subject>
+
+<subject>English "80"</subject>
+
+<subject>Urdu "100"</subject>
+
+<subject>Chemistry "50"</subject>
+
+<Grade>A+</Grade>
+
+<percentage>95%</percentage>
+
+</marksheet>
+<marksheet id="Software">
+<fname>Muhammad</fname>
+
+<lname>Wamiq</lname>
+
+<subject>Maths "75"</subject>
+
+<subject>Physics "70"</subject>
+
+<subject>English "80"</subject>
+
+<subject>Urdu "100"</subject>
+
+<subject>Chemistry "50"</subject>
+
+<Grade>A+</Grade>
+
+<percentage>95%</percentage>
+
+</marksheet>
+<marksheet>
+<fname>Muhammad</fname>
+
+<lname>Wamiq</lname>
+
+<subject>Maths "75"</subject>
+
+<subject>Physics "70"</subject>
+
+<subject>English "80"</subject>
+
+<subject>Urdu "100"</subject>
+
+<subject>Chemistry "50"</subject>
+
+<Grade>A+</Grade>
+
+<percentage>95%</percentage>
+
+</marksheet>
+<marksheet>
+<fname>Muhammad</fname>
+
+<lname>Wamiq</lname>
+
+<subject>Maths "75"</subject>
+
+<subject>Physics "70"</subject>
+
+<subject>English "80"</subject>
+
+<subject>Urdu "100"</subject>
+
+<subject>Chemistry "50"</subject>
+
+<Grade>A+</Grade>
+
+<percentage>95%</percentage>
+
+</marksheet>
+</employee>

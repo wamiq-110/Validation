@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <employee>
+<![CDATA[
+<marksheet>
+<fname>Muhammad</fname>
+
+
+<lname>Wamiq</lname>
+
+<subject>Maths "75"</subject>
+
+<subject>Physics "70"</subject>
+
+<subject>English "80"</subject>
+
+<subject>Urdu "100"</subject>
+
+<subject>Chemistry "50"</subject>
+
+<Grade>A+</Grade>
+
+<percentage>95%</percentage>
+
+</marksheet>
+]]>
+</employee>
